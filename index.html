@@ -16,28 +16,41 @@
 
 <body>
     <!-- <div class="d-none d-lg-block"> -->
-        <div class="navbar1">
-            <i class="fa fa-square" aria-hidden="true"></i>
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <div class="dropdown show">
-                <a class="btn btn-secondary dropdown-toggle" href="form.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  
-                </a>
-              
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="form.html">Create Account</a>
+    <div class="navbar1">
+        <i class="fa fa-square" aria-hidden="true"></i>
+        <i class="fa fa-circle" aria-hidden="true"></i>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+          
+         
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create account</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Create account.<a href="form.html">It's free!</a></h6>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary"><a href="form.html">Create account</a></button>
                 </div>
               </div>
+            </div>
+          </div>
         <!-- </div> -->
     </div>
     <div class="d-none d-md-block">
         <div class="navbar2">
-        <img src="#" alt="logo" srcset="">
-        <form class="w-25 d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          <h6>Create account.<a href="form.html">It's free!</a></h6>
+            <img src="img/Screenshot_2023-04-26-17-42-21-478_com.android.chrome1.jpg" alt="logo" srcset="">
+            <form class="w-25 d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <h6>Create account.<a href="form.html">It's free!</a></h6>
 
         </div>
     </div>
@@ -47,7 +60,7 @@
             <img src="img/1682181848570.jpg" class="w-100 card-img" alt="...">
             <div class="card-img-overlay">
                 <div class="nav1">
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    <a href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>
                     <button type="button" class="btn btn-outline-light">Join Group</button>
                 </div>
                 <div class="ctext">
@@ -150,35 +163,30 @@
                         <p class="card-text">_POST_</p>
                     </div>
                 </div>
-                 <div class="card" style="width: 38rem;">
+                <div class="card" style="width: 38rem;">
                     <img class="card-img-top" src="img/1682181848555.jpg" alt="Card image cap">
-                    <div class="card-img-overlay"></div>
+
                     <div class="card-body">
                         <p class="card-text">_POST_</p>
                     </div>
                 </div>
-                 <div class="card" style="width: 38rem;">
+                <div class="card" style="width: 38rem;">
                     <img class="card-img-top" src="img/1682181848555.jpg" alt="Card image cap">
-                    <div class="card-img-overlay"></div>
+
                     <div class="card-body">
                         <p class="card-text">_POST_</p>
                     </div>
+
                 </div>
-                 <div class="card" style="width: 38rem;">
-                    <img class="card-img-top" src="img/1682181848555.jpg" alt="Card image cap">
-                    <div class="card-img-overlay"></div>
-                    <div class="card-body">
-                        <p class="card-text">_POST_</p>
-                    </div>
-                </div>
+
             </div>
 
             <div class="side">
                 <div class="d-none d-md-block">
                     <form>
                         <label for="location"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                        <input type="text" id="location" name="location" placeholder="Enter your location">
-                        <i class="fa fa-close" aria-hidden="true"></i>
+                        <input type="text" id="location" name="location" placeholder="Enter your location        ">
+                        <a href="#"> <i class="fa fa-close" aria-hidden="true"></i></a>
                     </form>
                 </div>
 
