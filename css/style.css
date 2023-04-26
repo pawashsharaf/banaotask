@@ -120,6 +120,7 @@ margin-right:12px;
     display: flex;
     justify-content: flex-end;
     background-color: rgb(115, 115, 115);
+    align-items: center;
     
 }
 .navbar1 i{
@@ -145,6 +146,37 @@ border-color: black;
     }
 }
 .navbar1 a{
-    background-color:rgb(115, 115, 115) ;
-    color:black;
+    
+    color:rgb(255, 255, 255);
+}
+.navbar2 img{
+    width: 175px;
+}
+.nav1 a{
+    color:aliceblue;
+
+}
+.navbar1 p{
+    width: 67px;
+    border: 0;
+    margin: -6px;
+}
+.navbar1 a{
+    color: rgb(75, 222, 255);
+}
+.navbar1 button{
+    background-color: rgb(115, 115, 115);
+    border: rgb(115, 115, 115);
+    padding-left: 5px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.navbar1 .btn:hover {
+    color:rgb(115, 115, 115);; ;
+    background-color: rgb(115, 115, 115);
+    border-color: rgb(115, 115, 115);
+}
+.navbar1 button i{
+    color :black;
 }
