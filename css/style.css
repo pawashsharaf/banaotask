@@ -77,7 +77,9 @@ display: flex;
 
  }
  .cardnav .texti i{
-    margin-left: 20%;
+    float: left;
+    margin-left: auto;
+    padding-right: 3%;
 
  }
  .cardnav .abt {
@@ -93,7 +95,7 @@ margin-right:12px;
     flex-direction: column;
 }
 .cardnav .abt button{
-    margin-left: 51%;
+    margin-left: auto;
 }
 
 @media screen and (min-width: 767px) {
@@ -179,4 +181,12 @@ border-color: black;
 }
 .navbar1 button i{
     color :black;
+}
+.text21{
+    display:flex;
+    flex-direction: column;
+}
+.text112{
+    display: flex;
+    justify-content: space-between;
 }
