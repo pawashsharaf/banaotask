@@ -246,5 +246,7 @@ border-color: black;
     } */
      .show1{
      display: flex;
+         justify-content: center;
+    flex-direction: row;
     }
     
