@@ -250,3 +250,6 @@ border-color: black;
     flex-direction: row;
     }
     
+ .btn11 button{
+            border-color: lightgray;
+    }
